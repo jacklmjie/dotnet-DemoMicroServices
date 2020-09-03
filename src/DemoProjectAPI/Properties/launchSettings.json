@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "DemoProjectAPI": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "Projects",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "http://localhost:5011"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchBrowser": true,
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/Projects",
+      "publishAllPorts": true,
+      "useSSL": true
+    }
+  }
+}
